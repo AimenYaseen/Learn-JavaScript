@@ -11,13 +11,13 @@ const printName = () => {
 printName();
 
 // With one parameter
-const printName = (name) => {
+const printName1 = (name) => {
   console.log(name);
 };
-printName("World");
+printName1("World");
 
 // Alternative Syntax for 1 parameter
-const printName = (name) => {
+const printName2 = (name) => {
   console.log(name);
 };
 
@@ -27,8 +27,8 @@ const multiply = () => {
 };
 
 // Alternative
-const multiply = () => 2 * 2;
-multiply();
+const multiply2 = () => 2 * 2;
+multiply2();
 
-const multiply = (number) => number * 2;
-multiply(20);
+const multiply1 = (number) => number * 2;
+multiply1(20);
