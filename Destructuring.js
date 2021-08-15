@@ -3,9 +3,9 @@
 
 // Array Destructuring
 const numbers = [1, 2, 3, 6, 5, 7];
-[num1, num2] = numbers; // 1 & 2
+const [num1, num2] = numbers; // 1 & 2
 console.log(num1, num2);
-[, , , num4, num5] = numbers; // 6 & 5
+const [, , , num4, num5] = numbers; // 6 & 5
 console.log(num4, num5);
 
 // Object Destructing
