@@ -32,3 +32,11 @@ multiply2();
 
 const multiply1 = (number) => number * 2;
 multiply1(20);
+
+//
+const numArray = [1, 4, 7, 9];
+const doubleNumArray = numArray.map((num) => {
+  return num * 2;
+});
+console.log(numArray);
+console.log(doubleNumArray);
