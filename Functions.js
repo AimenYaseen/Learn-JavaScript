@@ -1,6 +1,6 @@
 // Normal Function
-function printMyName(name) {
-  console.log(name);
+function printMyName(msg) {
+  console.log(msg);
 }
 printMyName("Hello");
 
