@@ -44,3 +44,16 @@ function postForComment(posts, comment) {
 console.log(postForComment(posts, comments));
 
 // Example#02
+// Find a specific Car
+
+function Car(model) {
+  this.model = model;
+}
+
+var cars = [new Car("Buick"), new Car("Focus"), new Car("Camaro")];
+
+var findModel = cars.find((car) => {
+  return car.model === "Focus";
+});
+
+console.log("hjgaduad ", findModel);
