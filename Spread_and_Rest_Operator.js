@@ -26,10 +26,22 @@ const filter = (...args) => {
   // Receive more than one arguments
   return args.filter((el) => el === 2); // === checks type and value
 };
-console.log(filter(1, 2, 3, 4));
+console.log(filter(1, 2, 3, 4, 2, 3, 2));
 
 // Another example
 const sortArgs = (...args) => {
   return args.sort();
 };
 console.log(sortArgs(2, 6, 4, 1, 8, 0));
+
+// Example
+// Milk must be in the list
+
+function validateShoppingList(...items) {
+  if (items.indexOf("milk") < 0) {
+    return ["milk", ...items];
+  }
+  return items;
+}
+
+console.log(validateShoppingList("egg", "bread", "orange"));
