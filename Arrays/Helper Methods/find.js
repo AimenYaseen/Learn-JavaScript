@@ -45,7 +45,8 @@ console.log(postForComment(posts, comments));
 
 // Example#02
 // Find a specific Car
-
+// constructor object / function
+// It works through prototype inheritance
 function Car(model) {
   this.model = model;
 }

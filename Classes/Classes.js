@@ -1,3 +1,4 @@
+// Classes are implemented in javascript through prototype inhertance
 // Class with constructor & Old syntax
 class Human {
   constructor() {
