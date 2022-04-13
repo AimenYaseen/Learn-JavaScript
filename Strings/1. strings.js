@@ -13,14 +13,14 @@ console.log(string); // goodbye world
 
 // Capitalize the String
 let str = "arugument goes here";
-let words = str.split(" ");
+// let words = str.split(" ");
 
-let capString = words.map((word) => {
+let capString = str.split(" ").map((word) => {
   return word.substring(0, 1).toUpperCase() + word.substring(1);
   // console.log(word);
 });
 
-console.log(words);
+// console.log(words);
 console.log(capString); // [ 'Argument', 'Goes', 'Here' ]
 str = capString.join(" ");
 console.log(str); // Argument Goes Here
@@ -32,3 +32,12 @@ console.log(str); // Argument Goes Here
 // });
 
 // console.log(arr);
+
+// String reverse
+let reverse = "";
+// goodbye World
+for (let str of string) {
+  reverse = str + reverse;
+  console.log(reverse);
+}
+console.log(reverse);
