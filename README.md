@@ -1,7 +1,12 @@
 # Learn-JavaScript
 - JavaScript is a scripting language i.e. it does not need any compiler to run.
 
-## ECMAScript is a standard for scripting languages like JavaScript, Ruby, Python etc.
+
+## ECMAScript 
+- It is a standard for scripting languages like JavaScript, Ruby, Python etc.
+
+
+## Versions
 1. ES5 (ECMAScript 2009)
 2. ES6 (ECMAScript 2015)
 .
